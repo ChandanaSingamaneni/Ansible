@@ -1,0 +1,44 @@
+{
+    "students": [
+        {
+            "FirstName": "Chandana",
+            "LastName": "Singamaneni",
+            "DOB": "08-03-2001",
+            "Address": [
+                {
+                    "type": "Perm",
+                    "Flatnumber": 431,
+                    "Street": "Gandhi",
+                    "City": "Ongole"
+                },
+                {
+                    "type": "Perm",
+                    "Flatnumber": 431,
+                    "Street": "Gandhi",
+                    "City": "Ongole"  
+                }
+            ],
+            "Skills": ["Java", "Python", "Devops"]
+        },
+        {
+            "FirstName": "Chandana",
+            "LastName": "Singamaneni",
+            "DOB": "08-03-2001",
+            "Address": [
+                {
+                    "type": "Perm",
+                    "Flatnumber": 431,
+                    "Street": "Gandhi",
+                    "City": "Ongole"
+                },
+                {
+                    "type": "Perm",
+                    "Flatnumber": 431,
+                    "Street": "Gandhi",
+                    "City": "Ongole"  
+                }
+            ],
+            "Skills": ["Java", "Python", "Devops"]
+        }
+    ]
+}
