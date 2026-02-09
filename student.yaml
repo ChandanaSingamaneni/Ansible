@@ -1,0 +1,27 @@
+- name: "Chandana"
+  dob: "08-03-2001"
+  moblieNumber: 153453772243
+  addresses:
+  - flatnumber: 104
+    street: "Gandhi Nagar"
+    city: Ongole
+    type: perm
+
+  - flatnumber: 105
+    street: Gandhi
+    city: Nellor
+    type: current
+
+- name: "Jaanu"
+  dob: "10-06-2001"
+  moblieNumber: 153453772243
+  addresses:
+  - flatnumber: 105
+    street: "Lawyer Pet"
+    city: Ongole
+    type: perm
+
+  - flatnumber: 108
+    street: Gandhi
+    city: Nellor
+    type: current

@@ -2,7 +2,7 @@
 <student>
     <FirstName>Ramesh</FirstName>
     <DOB>1998-01-01</DOB>
-    <Email>xyz@gmail.com</Email>
+    <Email>wxyz@gmail.com</Email>
     <!-- <Address>104 Gandhi apartments hyd </Address> -->
     <Addresses>
         <PermAddress>
