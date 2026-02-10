@@ -1,0 +1,10 @@
+- name: Number greater than or not
+  hosts: local
+  connection: local
+  vars:
+   Number: 8
+  tasks:
+  - name: is greater than 5
+    ansible.builtin.debug:
+      msg: "Yes, Number is greater than 5" 
+    when: Number > 5
