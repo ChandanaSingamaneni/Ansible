@@ -1,0 +1,15 @@
+- name: task level variables
+  hosts: local
+  connection: local
+  vars:
+    NAME: "CHANDANA"
+    DOB: "08-03-2001"
+    OCCUPATION: "IT EMPLOYEE"
+  task:
+  - name: print variables
+    vars:
+      NAME: "MADHAVI"
+    ansible.builtin.debug:
+      msg: "Name is: {{NAME}}, Occupation is: {{OCCUPATION}}" 
+
+
