@@ -1,0 +1,7 @@
+- name: Gathering Facts
+  hosts: local
+  connection: local
+  tasks:
+  - name: print facts
+    ansible.builtin.print:
+      msg: "{{ ansible_facts }}"
