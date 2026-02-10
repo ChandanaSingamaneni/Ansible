@@ -1,0 +1,12 @@
+- name: play level variables
+  host: local
+  connection: local
+  vars:
+    NAME: "CHANDANA"
+    DOB: "08-03-2001"
+    JOB ROLE: SOFTWARE EMPLOYEE
+  tasks:
+  - name: Print variables
+    ansible.builtin.debug:
+      msg: "Name is: {{ CHANDANA }}, DOB {{ 08-03-2001 }}"
+  
