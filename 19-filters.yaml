@@ -9,7 +9,7 @@
       project: roboshop
       component: catalogue
     
-    tagList: [
+    tagsList: [
         {
             "key": "name",
             "value": "ansible"
