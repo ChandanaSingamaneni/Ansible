@@ -4,7 +4,7 @@
   tasks:
   - name: print name
     ansible.builtin.debug:
-      msg: "Hello {{ ITEM }}" # ITEM is reserved key word
+      msg: "Hello {{ item }}" # ITEM is reserved key word
     loop:
     - Chandana
     - Madhavi
