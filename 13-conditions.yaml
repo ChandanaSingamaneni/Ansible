@@ -6,5 +6,5 @@
   tasks:
   - name: is greater than 5
     ansible.builtin.debug:
-      msg: "Yes, Number is greater than 5" 
+      msg: "{{ Yes, Number is greater than 5 }}" 
     when: Number > 5

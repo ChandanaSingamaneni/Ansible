@@ -3,16 +3,16 @@
   connection: local
   vars:
    NAME: "Ansible from PLAY"
-  # vars_files:
-  # - name.yaml
-  # vars_prompt:
-  # - name: NAME
-  #   prompt: Please enter name
-  #   private: false
+  vars_files:
+  - name.yaml
+  vars_prompt:
+  - name: NAME
+    prompt: Please enter name
+    private: false
   tasks:
   - name: print name
-    # vars:
-    #   NAME: "Ansible from TASKS"
+    vars:
+      NAME: "Ansible from TASKS"
     ansible.builtin.debug:
       msg: "Hi {{ NAME }}"
 
@@ -20,3 +20,5 @@
 # 2. Task
 # 3. File
 # 4. Prompt
+# 5. PLAY
+# 6. Inventory

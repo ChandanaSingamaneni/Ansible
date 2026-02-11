@@ -5,7 +5,7 @@
     NAME: "CHANDANA"
     DOB: "08-03-2001"
     OCCUPATION: "IT EMPLOYEE"
-  task:
+  tasks:
   - name: print variables
     vars:
       NAME: "MADHAVI"
